@@ -1,0 +1,40 @@
+\documentclass[]{article}
+\usepackage{amsmath}
+%% \usepackage{breqn}
+\usepackage{color}
+\pagestyle{empty}
+
+%% -----Start Document-----
+\begin{document}
+
+%% --- Part 1 --- (Plain - Cropped Closely)
+\LARGE %% \scriptsize \small \normalsize \large \LARGE \huge \Huge
+
+%% \begin{align*}
+%% \color{blue}
+
+$$
+\begin{array}{rcl}
+  V_{T}        & = & V_{FENE} + V^{ATT}_{NB} + V^{REP}_{NB} \\
+  V_{FENE}     & = & \sum_{i=1}^{N-1} \frac{k}{2} R_{0}^{2} log \left( 1 - \frac{\left(r_{i,i+1} - r_{i,i+1}^{0}\right)^2}{R_{0}^{2}} \right) \\
+  V^{ATT}_{NB} & = & \sum_{i=1}^{N-3} \sum_{j=i+3}^{N} \epsilon_{h} \left[\left(\frac{r^{0}_{ij}}{r_{ij}}\right)^{12}-2\left(\frac{r^{0}_{ij}}{r_{ij}}\right)^{6}\right]\Delta_{ij} \\
+  V^{REP}_{NB} & = & \sum_{i=1}^{N-2} \epsilon_{1} \left(\frac{\sigma_{i,i+2}}{r_{i,i+2}}\right)^{6}+ \sum_{i=1}^{N-3} \sum_{j=i+3}^{N} \epsilon_{1}\left(\frac{\sigma}{r_{ij}}\right)^{6} \times \left(1-\Delta_{ij}\right) \\
+\end{array}
+$$
+
+%% \begin{align*}
+%%   V_{T}        & = & V_{FENE} + V^{ATT}_{NB} + V^{REP}_{NB} \\
+%%   V_{FENE}     & = & \sum_{i=1}^{N-1} \frac{k}{2} R_{0}^{2} log \left( 1 - \frac{\left(r_{i,i+1} - r_{i,i+1}^{0}\right)^2}{R_{0}^{2}} \right) \\
+%%   V^{ATT}_{NB} & = & \sum_{i=1}^{N-3} \sum_{j=i+3}^{N} \epsilon_{h} \left[\left(\frac{r^{0}_{ij}}{r_{ij}}\right)^{12}-2\left(\frac{r^{0}_{ij}}{r_{ij}}\right)^{6}\right]\Delta_{ij} \\
+%%   V^{REP}_{NB} & = & \sum_{i=1}^{N-2} \epsilon_{1} \left(\frac{\sigma_{i,i+2}}{r_{i,i+2}}\right)^{6}+ \sum_{i=1}^{N-3} \sum_{j=i+3}^{N} \epsilon_{1}\left(\frac{\sigma}{r_{ij}}\right)^{6} \times \left(1-\Delta_{ij}\right) \\
+%% \end{align*}
+
+
+
+%% %% --- Part 2 --- (Numbered - i.e.    (4) )
+%% \begin{equation}
+%%     \alpha = \sqrt{ \beta }
+%% \end{equation}
+
+\end{document}
+%% ----- End Document -----

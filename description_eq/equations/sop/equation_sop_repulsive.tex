@@ -1,0 +1,90 @@
+\documentclass[]{article}
+
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{pdflscape}
+\usepackage{rotating}
+
+\pagestyle{empty}
+
+%% \newcommand*{\Scale}[2][4]{\scalebox}{#1}{\ensuremath{#2}}}
+
+
+%% -----Start Document-----
+\begin{document}
+
+%% --- Part 1 --- (Plain - Cropped Closely)
+\Huge %% \scriptsize \small \normalsize \large \LARGE \huge \Huge
+
+
+%% $$
+%% \begin{array}{rcl}
+%% \end{array}
+%% $$
+
+%% tex-stackexchange 31416
+\begin{landscape}
+% \begin{center}
+%   \resizebox{24cm}{!}{$
+% \begin{array}{rcl}
+% V_{T}        & = & V_{FENE} + V^{ATT}_{NB} + V^{REP}_{NB} \\
+% V_{FENE}     & = & \sum\limits_{i=1}^{N-1} \frac{k}{2} R_{0}^{2} log \left( 1 - \frac{\left(r_{i,i+1} - r_{i,i+1}^{0}\right)^2}{R_{0}^{2}} \right) \\
+% V^{ATT}_{NB} & = & \sum\limits_{i=1}^{N-3} \sum\limits_{j=i+3}^{N} \epsilon_{h} \left[\left(\frac{r^{0}_{ij}}{r_{ij}}\right)^{12}-2\left(\frac{r^{0}_{ij}}{r_{ij}}\right)^{6}\right]\Delta_{ij} \\
+% V^{REP}_{NB} & = & \sum\limits_{i=1}^{N-2} \epsilon_{1} \left(\frac{\sigma_{i,i+2}}{r_{i,i+2}}\right)^{6}+ \sum\limits_{i=1}^{N-3} \sum\limits_{j=i+3}^{N} \epsilon_{1}\left(\frac{\sigma}{r_{ij}}\right)^{6} \times \left(1-\Delta_{ij}\right) \\
+% \end{array}
+% $}
+% \end{center}
+
+% sop_generic
+% \begin{center}
+%   \resizebox{24cm}{!}{$
+% \begin{array}{rcl}
+% V_{T}        & = & V_{FENE} + V^{ATT}_{NB} + V^{REP}_{NB} \\
+% \end{array}
+% $}
+% \end{center}
+
+% sop_FENE
+% \begin{center}
+%   \resizebox{24cm}{!}{$
+% \begin{array}{rcl}
+% V_{FENE}     & = & \sum\limits_{i=1}^{N-1} \frac{k}{2} R_{0}^{2} log \left( 1 - \frac{\left(r_{i,i+1} - r_{i,i+1}^{0}\right)^2}{R_{0}^{2}} \right) \\
+% \end{array}
+% $}
+% \end{center}
+
+% sop_attractive
+% \begin{center}
+%   \resizebox{24cm}{!}{$
+% \begin{array}{rcl}
+% V^{ATT}_{NB} & = & \sum\limits_{i=1}^{N-3} \sum\limits_{j=i+3}^{N} \epsilon_{h} \left[\left(\frac{r^{0}_{ij}}{r_{ij}}\right)^{12}-2\left(\frac{r^{0}_{ij}}{r_{ij}}\right)^{6}\right]\Delta_{ij} \\
+% \end{array}
+% $}
+% \end{center}
+
+% sop_repulsive
+\begin{center}
+  \resizebox{24cm}{!}{$
+\begin{array}{rcl}
+V^{REP}_{NB} & = & \sum\limits_{i=1}^{N-2} \epsilon_{1} \left(\frac{\sigma_{i,i+2}}{r_{i,i+2}}\right)^{6}+ \sum\limits_{i=1}^{N-3} \sum\limits_{j=i+3}^{N} \epsilon_{1}\left(\frac{\sigma}{r_{ij}}\right)^{6} \times \left(1-\Delta_{ij}\right) \\
+\end{array}
+$}
+\end{center}
+
+\end{landscape}
+
+% $$
+% \begin{array}{rcl}
+%   V_{T}        & = & V_{FENE} + V^{ATT}_{NB} + V^{REP}_{NB} \\
+%   V_{FENE}     & = & \sum_{i=1}^{N-1} \frac{k}{2} R_{0}^{2} log \left( 1 - \frac{\left(r_{i,i+1} - r_{i,i+1}^{0}\right)^2}{R_{0}^{2}} \right) \\
+%   V^{ATT}_{NB} & = & \sum_{i=1}^{N-3} \sum_{j=i+3}^{N} \epsilon_{h} \left[\left(\frac{r^{0}_{ij}}{r_{ij}}\right)^{12}-2\left(\frac{r^{0}_{ij}}{r_{ij}}\right)^{6}\right]\Delta_{ij} \\
+%   V^{REP}_{NB} & = & \sum_{i=1}^{N-2} \epsilon_{1} \left(\frac{\sigma_{i,i+2}}{r_{i,i+2}}\right)^{6}+ \sum_{i=1}^{N-3} \sum_{j=i+3}^{N} \epsilon_{1}\left(\frac{\sigma}{r_{ij}}\right)^{6} \times \left(1-\Delta_{ij}\right) \\
+% \end{array}
+% $$
+
+
+
+
+\end{document}
+%% ----- End Document -----
